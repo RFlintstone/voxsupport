@@ -1,0 +1,6 @@
+language: python
+sudo: enabled
+deploy:
+  provider: heroku
+  api_key:
+    secure: "YOUR ENCRYPTED API KEY"
