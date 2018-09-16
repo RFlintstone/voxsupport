@@ -6,4 +6,5 @@ deploy:
     secure: "YOUR ENCRYPTED API KEY"
 before_install:
   - sudo apt-get install -y libxml2-dev
-  -sudo apt-get install python3.6.5
+  - sudo apt-get install python3.6.5
+  - sudo add-apt-repository https://gist.github.com/ndaidong/af11af35f6b7ca010b80611b11a1a8f1
